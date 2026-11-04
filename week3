@@ -1,0 +1,90 @@
+Part1: Six Style Rules (each with Before / After example)
+Rule 1: Use second‑person "you" to directly address readers for instructions
+Before: Click the green New button on the left side to start creating a repository.
+After: You click the green  New  button on the left sidebar to create a repository.
+ 
+Rule 2: Mark UI element names with backticks  ` 
+Before: Click the Create repository button.
+After: Click the  Create repository  button.
+ 
+Rule3: Write complete, grammatically correct phrases; add articles where missing
+Before: Add a short description for repository.
+After: Add a short description for the repository.
+ 
+Rule4: Convert procedural paragraphs into numbered ordered lists for step‑by‑step tasks
+Before: Fill in the repository name in the box, then select Private for repository visibility. Check the box labeled Add a README file.
+After:
+1. Fill in your repository name. Select  Private  for repository visibility.
+2. Check the checkbox labelled  Add a README file .
+ 
+Rule5: Avoid vague positional descriptions; prefer precise terms like sidebar
+Before: click the green New button on the left side
+After: click the green  New  button on the left sidebar
+ 
+Rule6: Keep each sentence focused on one single action, do not pack multiple separate operations into one sentence
+Before: Fill in the repository name in the box, then select Private for repository visibility.
+After: Enter your repository name into the input field. Next, select  Private  to set your repository visibility.
+ 
+Part2: Revised full passage 
+How to create a private GitHub repository
+1. Navigate to the GitHub homepage. Locate and click the green  New  button on the left sidebar to begin repository creation.
+2. Enter your repository name inside the name input box. Set repository visibility by choosing the  Private  option.
+3. Tick the checkbox marked  Add a README file . A README file stores introductory information for your project.
+4. Type a short description for the repository. This description helps others understand your project quickly if you change repo visibility later.
+5. Scroll toward the bottom of this page. Click the  Create repository  button to finish the setup.
+Once these steps are finished, your new private repository will load automatically in your browser. You can then upload files or edit your README directly on GitHub.
+ 
+Part3: Six explained changes 
+1. Change: Added subject  you  and changed "left side" → "left sidebar"
+Linked rule: Rule1 & Rule5
+Explanation: Using "you" speaks directly to users. "Left sidebar" is a precise UI term instead of vague "left side".
+2. Change: Wrapped all button / checkbox labels with backticks, e.g.  New ,  Create repository 
+Linked rule: Rule2
+Explanation: Backticks visually distinguish clickable UI items from normal text so readers can spot them easily.
+3. Change: Fixed missing article:  for repository  →  for the repository 
+Linked rule: Rule3
+Explanation: Correct grammar removes confusion for non‑native readers.
+4. Change: Rewrote the running sentence “Fill in…then select…” into two separate sentences
+Linked rule: Rule6
+Explanation: One action per sentence reduces cognitive load when people follow instructions.
+5. Change: Restructured all actions into numbered list format
+Linked rule: Rule4
+Explanation: Numbered lists match the sequence users perform operations, making step‑following intuitive.
+6. Change: Added brief explanatory sentences about README function and post‑creation behaviour
+Linked rule: Rule6
+Explanation: Supplement minimal context without mixing multiple actions into one instruction sentence.
+
+Part4: Peer comment + Result check + AI disclosure
+Peer comment:
+The steps are logical. I suggest you specify users must log into their GitHub account before starting these operations, otherwise the  New  button will not show up on the page.
+
+Result check (verification):
+To verify this documentation: Log into a GitHub account, follow every step one by one, and confirm we can successfully create a private repository with a README file enabled.
+ 
+AI disclosure:
+I used AI to help organise style rules, restructure sentences and format the assignment. All core content and revision decisions are based on our class documentation editing requirements.
+
+Part5: Exit ticket
+One rule I used today was marking UI controls with backticks.
+It helps the reader because users can quickly identify which buttons or checkboxes they need to click while reading instructions.
+One fact or step I still need to verify is whether the position of the  New  button changes for GitHub users on different page layouts.
+
+
+
+
+
+课堂作业
+原句1
+“The previewing of the document should be carried out by the user.”
+改写
+Preview the document.
+译文：预览文档。
+略正式一点，技术手册常用：
+The user shall preview the document.
+译文：用户应预览文档。
+
+ 原句2
+“Carry out the removal of the cover and subsequently inspect the cable.”
+ 改写
+1. Remove the cover.
+2. Inspect the cable.
